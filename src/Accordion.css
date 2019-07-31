@@ -1,0 +1,18 @@
+ul{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  list-style: none;
+}
+
+button{
+  padding: 10px;
+  background-color: lightcoral;
+  font-size: 15px;
+  margin: 10px;
+}
+
+p{
+  border: 2px solid darkgray;
+  padding: 10px;
+}

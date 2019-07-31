@@ -1,4 +1,5 @@
 import React from 'react';
+import './Accordion.css';
 
 export default class Accordion extends React.Component {
   constructor(props) {
@@ -12,7 +13,7 @@ export default class Accordion extends React.Component {
 
     sectionList.forEach((section, index) => {
       jdxSectionList.push(
-        <div key={index}>
+        <li key={index}>
           <button
             
             onClick={() => this.setState({ showIndex: index })}
@@ -20,7 +21,7 @@ export default class Accordion extends React.Component {
             {section.title}
           </button>
           {(this.state.showIndex === index) && (<p>{section.content}</p>)}
-        </div>
+        </li>
 
 
       )
@@ -34,7 +35,6 @@ export default class Accordion extends React.Component {
       <main className='App'>
         <ul>
           {this.getSections()}
-
         </ul>
       </main>
     );
