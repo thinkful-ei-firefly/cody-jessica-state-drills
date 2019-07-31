@@ -7,3 +7,88 @@ exports[`<Accordion sections={sections}/> Renders <Accodion /> Correctly 1`] = `
   <ul />
 </main>
 `;
+
+exports[`<Accordion sections={sections}/> Renders <Accordion /> Correctly 1`] = `
+<main
+  className="App"
+>
+  <ul />
+</main>
+`;
+
+exports[`<Accordion sections={sections}/> Renders an empty list when no components are defined 1`] = `
+<main
+  className="App"
+>
+  <ul />
+</main>
+`;
+
+exports[`<Accordion sections={sections}/> renders a <p> element below the button that was clicked that displays content 1`] = `
+<main
+  className="App"
+>
+  <ul>
+    <div
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+    <div
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </div>
+    <div
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </div>
+  </ul>
+</main>
+`;
+
+exports[`<Accordion sections={sections}/> renders no sections as active by default 1`] = `
+<main
+  className="App"
+>
+  <ul>
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </div>
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </div>
+    <div>
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </div>
+  </ul>
+</main>
+`;
