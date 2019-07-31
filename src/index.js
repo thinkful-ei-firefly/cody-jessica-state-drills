@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import HelloWorld from './HelloWorld';
-import Bomb from './Bomb';
+import RouletteGun from './RouletteGun';
 import './index.css';
 
-ReactDOM.render(<Bomb />, document.getElementById('root'));
+ReactDOM.render(<RouletteGun bulletInChamber={8}/>, document.getElementById('root'));
